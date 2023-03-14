@@ -3,9 +3,16 @@ import "./Screen.css";
 
 const Screen = ({ value }) => {
     return (
-        <Textfit className="screen" mode="single" max={70}>
-            {value}
-        </Textfit>
+        <div>
+
+            <h1 className="screen" max={70}>
+                {value}
+            </h1>
+
+            {/* <Textfit className="screen" mode="single" max={70}>
+                {value}
+            </Textfit> */}
+        </div>
     );
 };
 
